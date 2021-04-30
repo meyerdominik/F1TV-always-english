@@ -1,0 +1,10 @@
+{
+	"name":"F1 TV always english",
+	"description":"Sets F1 TV always to the english language",
+	"version":"1.0.0",
+	"manifest_version":2,
+	"background": {
+		"scripts": ["./background.js"]
+	},
+	"permissions": ["https://f1tv.formula1.com/*", "tabs"]
+}
